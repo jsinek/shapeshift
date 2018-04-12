@@ -4,7 +4,7 @@ A flexible unintrusive CSS framework.
 
 
 ## Features
-___
+
 
 ### flex(direction)
 Defines the element as a flex element and sets the flex-direction for its children.
@@ -17,7 +17,7 @@ Defines the element as a flex element and sets the flex-direction for its childr
 
 
 
-#### flex(size)
+### flex(size)
 Determines the flex amount for the element.
 
 | param 	| value 	|
@@ -150,7 +150,6 @@ Defines the element as a background image. Background repeating will be disabled
 
 
 ## Shifts
-___
 Breakpoints are referred to as shifts. A shift has been defined at every 100 pixels beginning at a 400 pixel window width and ending at a 1500 pixel window width.
 A layout can be altered at any shift using nearly any of the features above. To alter your layout at a shift, simply add the shift prefix to your rule.
 
@@ -164,6 +163,6 @@ class="size(1/1) s9:size(1/2) s6:size(1/3)"
 
 #### A complete list of shift prefixes can be found below:
 
-s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14
+s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15
 
-The concept of shifts can be applies to all features except for ratio() and bg(). The use cases for these are too minimal to justify making the library larger than it needs to be.
+The concept of shifts can be applied to all features except for ratio() and bg(). The use cases for these are too minimal to justify making the library larger than it needs to be.
